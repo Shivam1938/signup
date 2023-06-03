@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rubik&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.outer-body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top right,#3ed8ff,#a8f5ff);
+}
+
+.inner-body {
+    width: 400px;
+    margin: 0 auto; /*left or right se auto margin se parent ke center me aata h horizontally*/
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background: linear-gradient(to top left,#ffffffff,#ffffff33);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px #2773a5;
+    z-index: 2;
+
+}
+
+.header h1{
+    font-size: 2.5rem;
+    color: #212121;
+}
+
+.header p {
+    font-size: 0.95rem;
+    color: #555;
+
+}
+
+.main {
+    margin:10px 0;
+}
+
+.main p {
+    margin: 10px 0;
+}
+
+.main p label {
+    display: block;
+    font-weight: bold;
+}
+
+.main p input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.main p input[type="submit"] {
+    background-color: #3498db;
+    border: none;
+}
+
+.main p input[type="submit"]:hover {
+    background-color: #1d6a9d;
+}
+
+.footer label{
+    text-align: center;
+    color: #555;
+
+}
+
+.footer label p a {
+    text-align: center;
+    color: #1d6a9d;
+    text-decoration: none;
+}
+
+.footer label p a:hover {
+    text-align: center;
+    color: #1d6a9d;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right,#ffffff33,white );
+    position: absolute;
+}
+
+.c1{
+    top: 40px;
+    left: 50px;
+}
+
+.c2{
+    top: 300px;
+    right: 100px;
+}
